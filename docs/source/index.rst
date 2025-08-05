@@ -1,122 +1,77 @@
 ScanCode-Toolkit Documentation
 ==============================
 
-Welcome to ScanCode-Toolkit Documentation!
+ScanCode Toolkit is a set of code scanning tools that detect the origin (copyrights), license
+and vulnerabilities of code, packages and dependencies in a codebase.
 
-If you are new to ScanCode-Toolkit, start here:
+ScanCode Toolkit is the leading tool in scanning depth and accuracy,
+used by hundreds of software teams.
+You can use ScanCode Toolkit as a command line tool or as a library.
+
+Documentation overview
+~~~~~~~~~~~~~~~~~~~~~~
+
+The overview below outlines how the documentation is structured
+to help you know where to look for certain things:
+
+.. rst-class:: clearfix row
+
+.. rst-class:: column column2 top-left
+
+:ref:`tutorials`
+~~~~~~~~~~~~~~~~
+
+**Start here as a new ScanCode user**:
+
+- installation
+- using additional packages
+- creating your own addon applications.
+
+.. rst-class:: column column2 top-right
+
+:ref:`how-to-guides`
+~~~~~~~~~~~~~~~~~~~~
+
+Practical **step-by-step guides** for the more experienced user, covering several
+important topics.
+
+.. rst-class:: column column2 bottom-left
+
+:ref:`explanation`
+~~~~~~~~~~~~~~~~~~
+
+Explanation and analysis of some key concepts in ScanCode.
+
+.. rst-class:: column column2 bottom-right
+
+:ref:`reference`
+~~~~~~~~~~~~~~~~
+
+Technical reference material, such as
+
+- :ref:`cli-scancode` options
+- :ref:`plugins` to extend ScanCode at different stages
+- :ref:`supported-packages`
+
+.. rst-class:: row clearfix
+
+Community
+~~~~~~~~~
+
+ScanCode is part of the AboutCode community! Join our `friendly Slack <https://aboutcode-org.slack.com>`_  to ask questions,
+share ideas or discuss your challenges with other members of our community.
+If you want to ask questions or anything else that you think are not bugs/new
+features, open a `discussion <https://github.com/aboutcode-org/scancode-toolkit/discussions>`_
+
+.. include::  /rst-snippets/improve-docs.rst
 
 .. toctree::
    :maxdepth: 2
-
-   getting-started/newcomer
-
-Here's a list of more Documentation Pages:
-
-- A :ref:`cli_synopsis` of ScanCode Command Line Options
-- Tutorials on :ref:`how_to_run_a_scan` and :ref:`how_to_visualize_scan_results`
-- An exhaustive List of :ref:`cli_list_options`
-- Documentation on :ref:`contrib_code_dev`
-- Documentation on :ref:`plugin_arch`
-- :ref:`faq`
-
-----
-
-Getting Started
----------------
-
-.. toctree::
-   :maxdepth: 2
-
-   getting-started/index
-
-----
-
-Command Line Options Reference
-------------------------------
-
-Reference documents describe the Command Line options, and application concepts in depth.
-
-.. toctree::
-   :maxdepth: 2
-
-   cli-reference/index
-
-----
-
-Tutorials
----------
-
-Tutorial documents provide specific instructions to help you get started.
-
-.. toctree::
-   :maxdepth: 2
+   :hidden:
 
    tutorials/index
-
-----
-
-How-To Documents
-----------------
-
-How-To documents explain how to accomplish specific tasks.
-
-.. toctree::
-   :maxdepth: 2
-
    how-to-guides/index
-
-----
-
-Contribute To ScanCode
-----------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   contribute/index
-
-----
-
-Plugins Documentation
----------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   plugins/index
-
-----
-
-Miscellaneous Documents
------------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   misc/index
-
-
-Reference Documents
---------------------
-
-Reference documents provide reference pages for technical reference information
-about ScanCode-Toolkit, including how it works and supported features.
-
-.. toctree::
-   :maxdepth: 2
-
    reference/index
-
-
-----
-
-Indices and Tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-.. _improve_docs:
-
-.. include::  /rst_snippets/improve_docs.rst
+   explanation/index
+   contribute/index
+   faq

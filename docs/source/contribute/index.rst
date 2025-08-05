@@ -4,10 +4,10 @@
 .. toctree::
    :maxdepth: 2
 
-   contrib_dev
-   cut_new_release
-   contrib_doc
+   contrib-dev
+   cut-new-release
+   contrib-doc
    roadmap
-   gsoc17_final_report
-   gsoc19_final_report
-   gsoc21_final_report
+   gsoc17-final-report
+   gsoc19-final-report
+   gsoc21-final-report
